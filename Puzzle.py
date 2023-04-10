@@ -2,6 +2,7 @@ import queue
 import copy
 
 def solve_puzzle(Board, Source, Destination):
+    # For coordinate tuples, the left value is the row index and the right value is the column index. I.e. (0,1) means row 1 and column 2
     # The queue will contain tuples with a coordinate and it's previous coordinate
     q = queue.Queue()
     rowCount = len(Board)
@@ -97,10 +98,11 @@ board = [['-','-','-','-','-'],
 for row in board:
     print(row)
 
-# This is the starting point of the desired path which you can modify.
+# For coordinate tuples, the left value is the row index and the right value is the column index. I.e. (0,1) means row 1 and column 2
+# This is the starting coordinate of the desired path which you can modify.
 source = (0,2)
 
-# This is the final destination of the desired path which you can modify.
+# This is the final coordinate of the desired path which you can modify.
 destination = (2,2)
 
 print(solve_puzzle(board, source, destination))

@@ -22,3 +22,6 @@ You can also modify the source and destination values.
 First, open "Puzzle.py" with a text editor to modify the puzzle board, source value, and destination value you want solved.
 
 Once you have confirmed the three values above, then run command "python Puzzle.py" or "python3 Puzzle.py" to begin solving the puzzle.
+
+A terminal should output the puzzle board that has been solved, the list of coordinates forming the shortest path from the source
+coordinate to destination coordinate, and a string of directions where 'R' is right, 'L' is left, 'D' is down, and 'U' is up.
