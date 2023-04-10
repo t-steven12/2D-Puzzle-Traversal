@@ -3,6 +3,9 @@
 This program finds the shortest path from a source to a destination on a 2-D puzzle of an arbitrary size
 by utilizing queues and breadth-first searches.
 
+Please review the supporting PDF "2D Puzzle Algorithm Description.pdf" for a detailed description of the algorithm
+used to find the shortest path.
+
 The 2-D Puzzle board is formatted like the following inside "Puzzle.py":<br />
     ['-','-','-','-','-'],<br />
     ['-','-','#','-','-'],<br />

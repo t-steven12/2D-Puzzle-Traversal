@@ -103,6 +103,6 @@ for row in board:
 source = (0,2)
 
 # This is the final coordinate of the desired path which you can modify.
-destination = (2,2)
+destination = (1,4)
 
 print(solve_puzzle(board, source, destination))
