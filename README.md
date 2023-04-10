@@ -3,11 +3,11 @@
 This program finds the shortest path from a source to a destination on a 2-D puzzle of an arbitrary size
 by utilizing queues and breadth-first searches.
 
-The 2-D Puzzle board is formatted like the following inside "Puzzle.py":
-    ['-','-','-','-','-'],
-    ['-','-','#','-','-'],
-    ['-','-','-','-','-'],
-    ['#','-','#','#','-'],
+The 2-D Puzzle board is formatted like the following inside "Puzzle.py":<br />
+    ['-','-','-','-','-'],<br />
+    ['-','-','#','-','-'],<br />
+    ['-','-','-','-','-'],<br />
+    ['#','-','#','#','-'],<br />
     ['-','#','-','-','-']
 
 '-' represents empty space while '#' represents obstacles.
